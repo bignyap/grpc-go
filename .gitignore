@@ -1,0 +1,62 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.o
+*.a
+
+# Compiled object files
+*.obj
+*.elf
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (may be different depending on your tool)
+vendor/
+Godeps/
+dep/
+
+# GoLand project files
+.idea/
+
+# Air configuration and binary files
+.air.toml
+tmp/
+.air/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Test binary
+*.test
+
+# Air binary
+bin/
+
+# Coverage files
+*.cover
+coverage/
+
+# Go test binaries
+*.test
+testdata/
+
+# JetBrains related
+.idea/
+
+# Ignore the Go workspace file if using Go workspaces
+go.work
+go.work.sum
+
+
+.env
